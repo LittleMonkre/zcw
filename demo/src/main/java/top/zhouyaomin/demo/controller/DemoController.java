@@ -10,4 +10,10 @@ public class DemoController {
     public String demo(){
         return "hello-word";
     }
+
+
+    @GetMapping("/good")
+    public String good (){
+        return "say:good";
+    }
 }
